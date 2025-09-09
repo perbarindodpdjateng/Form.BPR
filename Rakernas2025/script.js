@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyH9P2DTPE4f0UdqDcz8KJUV8pmMiQK62Owfh-ovrn1bwL6iZoAp3Ndeh-OHe419GUj/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxGp0_EE2P27E85dPRjjBg42bWLhksHfnJYKGGEGjfwPuxPL1r1nfXJFp39tPWNdFko/exec';
 
 const form = document.getElementById('formInput');
 const responseMsg = document.getElementById('response');
