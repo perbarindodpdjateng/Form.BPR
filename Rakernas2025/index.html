@@ -1,43 +1,40 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Formulir Permasalahan BPR-BPRS</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulir BPR-BPRS</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="container">
-    <h2>Formulir Permasalahan &amp; Masukan BPR-BPRS</h2>
-    <p class="sub">Untuk dibawa ke Rakernas Makassar, 25-26 September 2025</p>
-
+    <h2>Formulir Masukan BPR-BPRS</h2>
     <form id="formInput">
       <label>Nama BPR-BPRS
-        <input type="text" name="bprName" required>
+        <input type="text" name="bprName" required />
       </label>
 
       <label>Nama Penginput
-        <input type="text" name="penginput" required>
+        <input type="text" name="penginput" required />
       </label>
 
       <label>No WA
-        <input type="tel" name="noWA" required pattern="[0-9+\-\s]+" title="Hanya angka, spasi atau tanda + -">
+        <input type="tel" name="noWA" required />
       </label>
 
       <label>Permasalahan
-        <textarea name="permasalahan" rows="3" required></textarea>
+        <textarea name="permasalahan" required></textarea>
       </label>
 
-      <label>Masukan / Usulan
-        <textarea name="usulan" rows="3" required></textarea>
+      <label>Masukan/Usulan
+        <textarea name="usulan" required></textarea>
       </label>
 
       <button type="submit">Kirim</button>
     </form>
-
     <p id="response"></p>
   </div>
 
-  <script src="app.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
