@@ -1,6 +1,6 @@
 // --------------- C O N F I G ---------------
-const SCRIPT_ID = 'AKfycbyHZIkS1J2qMhNkpuP4bCGybdUHkQ7fZJKF1QfgZuGfI1lHke84w5mjeM6Y34ZbzmgJ'; // <-- ganti dengan ID Anda
-const scriptURL = `https://script.google.com/macros/s/${SCRIPT_ID}/exec`;
+const SCRIPT_ID = 'AKfycbzYRIbl8XZoKjAhT4txNkzMhaf7tSQPUHkjEYfMYUOhWKEs-MpjsPdPLEsRFhm_NCTj'; // <-- ganti dengan ID Anda
+const scriptURL = `https://script.google.com/macros/s/AKfycbzYRIbl8XZoKjAhT4txNkzMhaf7tSQPUHkjEYfMYUOhWKEs-MpjsPdPLEsRFhm_NCTj/exec`;
 
 const form = document.getElementById('formInput');
 const resp = document.getElementById('response');
