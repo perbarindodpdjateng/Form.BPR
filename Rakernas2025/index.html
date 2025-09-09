@@ -2,26 +2,14 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Formulir Masukan BPR-BPRS</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <style>
-    /* ---------- MINIMALIS ---------- */
-    *{box-sizing:border-box}
-    body{margin:0;font-family:"Segoe UI",Arial,sans-serif;background:#fff;color:#222;font-size:14px}
-    .container{padding:12px}
-    h2{margin:0 0 4px 0;font-size:18px;text-align:center}
-    .sub{margin:0 0 16px 0;font-size:12px;text-align:center;color:#555}
-    label{display:block;margin-bottom:10px;font-weight:600}
-    input,textarea{width:100%;padding:8px;margin-top:4px;border:1px solid #bbb;border-radius:4px;font-size:14px}
-    button{width:100%;padding:10px;background:#007bff;color:#fff;border:none;border-radius:4px;font-size:15px;cursor:pointer}
-    button:hover{background:#0056b3}
-    #response{margin-top:10px;text-align:center;font-weight:bold;font-size:13px}
-  </style>
+  <title>Formulir Permasalahan BPR-BPRS</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h2>Formulir Permasalahan-Masukan BPR-BPRS</h2>
-    <p class="sub">untuk disampaikan di acara Rakernas di Makasar tgl. 25-26 September 2025</p>
+    <h2>Formulir Permasalahan &amp; Masukan BPR-BPRS</h2>
+    <p class="sub">Untuk dibawa ke Rakernas Makassar, 25-26 September 2025</p>
 
     <form id="formInput">
       <label>Nama BPR-BPRS
@@ -33,22 +21,23 @@
       </label>
 
       <label>No WA
-        <input type="tel" name="noWA" required>
+        <input type="tel" name="noWA" required pattern="[0-9+\-\s]+" title="Hanya angka, spasi atau tanda + -">
       </label>
 
       <label>Permasalahan
         <textarea name="permasalahan" rows="3" required></textarea>
       </label>
 
-      <label>Masukan/Usulan
+      <label>Masukan / Usulan
         <textarea name="usulan" rows="3" required></textarea>
       </label>
 
       <button type="submit">Kirim</button>
     </form>
+
     <p id="response"></p>
   </div>
 
-
+  <script src="app.js"></script>
 </body>
 </html>
