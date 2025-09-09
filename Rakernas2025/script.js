@@ -1,4 +1,4 @@
-const scriptURL = 'GANTI_DENGAN_URL_WEB_APP_ANDA';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwWEcSgnCo_L3TnBr7ZtShPdQsKt_nzfVebG0h0Iijw96sdN4W0KyQ7ONx60N0ydeSz/exec';
 
 document.getElementById('formInput').addEventListener('submit', function (e) {
   e.preventDefault();
