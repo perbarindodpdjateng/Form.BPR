@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulir BPR-BPRS</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Formulir Masukan BPR-BPRS</h2>
+    <form id="formInput">
+      <label>Nama BPR-BPRS
+        <input type="text" name="bprName" required />
+      </label>
+
+      <label>Nama Penginput
+        <input type="text" name="penginput" required />
+      </label>
+
+      <label>No WA
+        <input type="tel" name="noWA" required />
+      </label>
+
+      <label>Permasalahan
+        <textarea name="permasalahan" required></textarea>
+      </label>
+
+      <label>Masukan/Usulan
+        <textarea name="usulan" required></textarea>
+      </label>
+
+      <button type="submit">Kirim</button>
+    </form>
+    <p id="response"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
