@@ -4,8 +4,8 @@ body {
   margin: 0;
   padding: 20px;
 header{padding:12px 0;border-bottom:2px solid var(--primary)}
-header h1{margin:0;font-size:1.1rem}
-header h2{margin:2px 0;font-size:1.1rem;color:#555}
+header h3{margin:0;font-size:1.1rem}
+header h3{margin:2px 0;font-size:1.1rem;color:#555}
 }
 
 .container {
