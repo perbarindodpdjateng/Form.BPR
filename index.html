@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulir BPR-BPRS</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h3>Formulir Permasalahan-Masukan BPR-BPRS</h3>
+
+    <form id="formInput">
+      <label>Nama BPR-BPRS
+        <input type="text" name="bprName" required />
+      </label>
+
+      <label>Nama Penginput
+        <input type="text" name="penginput" required />
+      </label>
+
+      <label>No WA
+        <input type="tel" name="noWA" required />
+      </label>
+
+      <label>Permasalahan
+        <textarea name="permasalahan" required></textarea>
+      </label>
+
+      <label>Masukan/Usulan
+        <textarea name="usulan" required></textarea>
+      </label>
+
+      <button type="submit">Kirim</button>
+    </form>
+    <p id="response"></p>
+  </div>
+
+
+  <!-- TAMBAHKAN DI HTML ANDA -->
+<style>
+  #progressWrapper {
+    display: none;
+    margin-top: 8px;
+  }
+  #progressBar {
+    width: 0%;
+    height: 6px;
+    background: #22c55e;
+    transition: width .2s;
+  }
+  @keyframes blinkGreen {
+    0%,100% { color: #16a34a; }
+    50%      { color: transparent; }
+  }
+  .blinkGreen {
+    animation: blinkGreen .5s ease 6;   /* 6 = 3x on/off */
+  }
+</style>
+
+<div id="progressWrapper">
+  <div id="progressBar"></div>
+</div>
+<div id="response"></div>
+  <script src="script.js"></script>
+</body>
+</html>
