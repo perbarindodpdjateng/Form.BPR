@@ -3,6 +3,9 @@ body {
   background: #f4f7fa;
   margin: 0;
   padding: 20px;
+header{padding:12px 0;border-bottom:2px solid var(--primary)}
+header h1{margin:0;font-size:1.3rem}
+header p{margin:2px 0;font-size:.8rem;color:#555}
 }
 
 .container {
